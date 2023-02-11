@@ -1,0 +1,14 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eee;
+    font-weight: lighter;
+    font-size: 20px;
+};
+
+html {
+    box-sizing: border-box;
+};
+
+*, ::after, ::before{
+    box-sizing: inherit;
+};

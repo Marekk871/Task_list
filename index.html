@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/tasks.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+          rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task list</title>
+    <script defer src="JS/script.js"></script>
+</head>
+
+<body class="body">
+ <main class="container">
+    <header>
+        <h1>Task list</h1>
+    </header>
+
+    <section class="section">
+        <h2 class="section__header">Add a new task</h2>
+        <div class="section__background">
+            <form class="form js.form">
+                <input class="form__input js.newTask" placeholder="What is there to do?">
+                <button class="form__button">Add task</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section__header">Task list</h2>
+        <div class="section__background">
+            <ul class="tasks js.tasks"></ul>
+        </div>
+    </section>
+
+ </main>
+</body>
+
+</html>
